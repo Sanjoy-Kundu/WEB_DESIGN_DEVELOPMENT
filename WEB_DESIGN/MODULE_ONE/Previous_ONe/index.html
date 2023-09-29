@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Html</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header, footer{
+            width: 80%;
+            height: 25%;
+            margin: 0 auto;
+            background-color: rgb(152, 169, 82);
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+        main{
+            width: 80%;
+            height: 1500px;
+            margin: 0 auto;
+            background-color: rgb(189, 180, 180);
+            padding-left: 30px;
+        }
+
+        div{
+            width: 250px;
+            height: 250px;
+            border: 1px solid burlywood;
+        }
+        div img{
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+
+        input{
+            width: 300px;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid peru;
+            margin-left: 30px;
+        }
+
+        .img img{
+            margin-bottom: 10px;
+        }
+
+        table, th, td,tr{
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Wellcome To Our Full<span style="color: orange;">Stack</span> Journey</h1>
+        </header>
+        <main>
+            <h1>Hello Banlgladesh</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus tempore, libero vero ipsum provident fugit autem impedit quibusdam pariatur soluta illo exercitationem natus numquam explicabo temporibus optio dolor ullam maiores modi aspernatur. Eaque, molestias in. Quas illum a, aliquid nisi voluptatibus cum veritatis, ex dolorum et ipsum, veniam illo?</p>
+            <button>Learn More</button>
+            <button><a href="https://www.google.com/" target="_blank">Learn More</a></button>
+            
+            <br> <br> <br>
+            <article class="simple-list">
+                <h1>Programming Language</h1>
+                <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript
+                        <ul type="square">
+                            <li>React</li>
+                            <li>Vue</li>
+                        </ul>
+                    </li>
+                    <li>PHP  
+                        <ol type="i">
+                            <li>PHP 4.5</li>
+                            <li>PHP 5.6</li>
+                        </ol>
+                    </li>
+                </ol>
+            </article>
+            <br> <br> <br>
+            <article>
+                <h2>Bangladesh</h2>
+                <ul type="disc">
+                    <li>Bangladesh
+                            <ol type="A">
+                                <li>Dhaka</li>
+                                <li>Chittagong</li>
+                                <li>Khulna</li>
+                                <li>Dinajpur</li>
+                            </ol>
+                    </li>
+                    <li>India</li>
+                    <li>Japan</li>
+                </ul>
+            </article>
+
+            <article>
+                <select name="" id="">
+                    <option value="">SELECT ONE</option>
+                    <option value="madaripur">Madaripur</option>
+                    <option value="dhaka">Dhaka</option>
+                    <option value="chittagong">Chittagong</option>
+                    <option value="rajshahi">Rajshaji</option>
+                </select>
+            </article>
+
+
+
+            <article>
+                <form action="">
+                    Name: <input type="text" placeholder="Enter yuour name"> <br> 
+                    Email: <input type="email" placeholder="Enter yuour name"> <br>
+                    Tel:&nbsp;&nbsp;&nbsp;&nbsp; <input type="tel" placeholder="Enter yuour name"> <br>
+                    GPA: &nbsp;&nbsp;<input type="number" placeholder="Enter yuour name"> <br>
+                        <button>SUBMIT</button>
+                </form>
+            </article>
+
+            <article>
+                <div class="img">
+                    <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" width="300px" height="200px" alt="">
+                    <h2>Name: Tshirt</h2>
+                    <h3>price: $<del>30</del> &nbsp; $25</h3>
+                    <h4>Discount: 10%</h4>
+
+                </div>
+            </article>
+
+            <br> <br> <br> <br> <br>
+            <section>
+                <table style="border: 1px solid black; width: 50%; border-collapse: collapse;">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                    </tr>
+
+                    <tr>
+                        <td>Sanjoy</td>
+                        <td>sanjoykundu187@gamil.com</td>
+                        <td rowspan="2">01873428918</td>
+                    </tr>
+                    <tr>
+                        <td>Joy</td>
+                        <td>sanjoykundu187@gamil.com</td>
+                       
+                    </tr>
+                </table>
+            </section>
+
+        </main>
+        <footer>
+            <p>abc@gmail.com</p>
+        </footer>
+</body>
+</html>
